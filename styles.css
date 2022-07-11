@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-image: url("https://images.unsplash.com/photo-1613777372464-34e3f1b415bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+  }
+  h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form input,
+  form button {
+    padding: 10px;
+    border: none;
+    font-size: 24px;
+    background: white;
+    outline: none;
+  }
+  form button {
+    color: #94B49F;
+    background-color: white;
+    cursor: pointer;
+  }
+  form button:hover {
+    color: white;
+    background-color: #CEE5D0;
+  }
+  
+  /* ----------------New List Container----------------- */
+  
+  .todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .todo-list {
+    list-style: none;
+    min-width: 25%;
+  }
+  
+  .todo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: white;
+    color: black;
+    margin: 10px;
+  }
+  .cmpltBtn {
+    background-color: #D3EBCD;
+    border: none;
+    padding: 16px;
+    font-size: 16px;
+  }
+  .deleteBtn {
+    background-color: #A0D995;
+    border: none;
+    padding: 16px;
+    font-size: 16px;
+  }
+  
+  .todo li {
+    flex: 1;
+    padding: 0px 10px;
+  }
+  
+  .fa-trash,
+  .fa-check {
+    pointer-events: none;
+  }
+  
+  .todo-done {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+  p{
+    text-align: center;
+  }
